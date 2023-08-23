@@ -2,6 +2,13 @@
   import type { Movies } from '../types'
 
   export let movies: Movies
+
+  $: recents = Object.entries(movies)
+    .flatMap(([id, movie]) =>
+      movie.viewings.map((viewing) => ({ ...viewing, id }))
+    )
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 4)
 </script>
 
 <main>
@@ -9,14 +16,20 @@
   <section>
     <h2>Recently Watched</h2>
     <ul>
-      <li>TODO</li>
+      {#each recents as recent}
+        <li>
+          <a href={recent.id}
+            >{movies[recent.id].title} ({movies[recent.id].year})</a
+          >
+        </li>
+      {/each}
     </ul>
   </section>
   <section>
     <h2>All Movies</h2>
     <ul>
-      {#each Object.entries(movies) as [key, movie]}
-        <li><a href={key}>{movie.title} ({movie.year})</a></li>
+      {#each Object.entries(movies) as [id, movie]}
+        <li><a href={id}>{movie.title} ({movie.year})</a></li>
       {/each}
     </ul>
   </section>
