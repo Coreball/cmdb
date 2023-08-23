@@ -1,5 +1,6 @@
 export type Viewing = {
   date: string
+  location: string
 }
 
 export type Movie = {

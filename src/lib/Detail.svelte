@@ -10,7 +10,7 @@
   <h2>Watched</h2>
   <ul>
     {#each movie.viewings as viewing}
-      <li>{viewing.date}</li>
+      <li>{viewing.date}, {viewing.location}</li>
     {/each}
   </ul>
 </main>

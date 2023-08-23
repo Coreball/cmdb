@@ -1,11 +1,23 @@
 {
+  "bad-axe-2022": {
+    "title": "Bad Axe",
+    "poster": "bad-axe-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-03-16",
+        "location": "Cornell Cinema"
+      }
+    ]
+  },
   "barbie-2023": {
     "title": "Barbie",
     "poster": "/barbie-2023.jpg",
     "year": 2023,
     "viewings": [
       {
-        "date": "2023-08-08"
+        "date": "2023-08-08",
+        "location": "Landmark Greenwood Village"
       }
     ]
   },
@@ -15,10 +27,49 @@
     "year": 2012,
     "viewings": [
       {
-        "date": "2020-01-20"
+        "date": "2020-01-20",
+        "location": "Local"
       },
       {
-        "date": "2020-05-30"
+        "date": "2020-05-30",
+        "location": "Local"
+      }
+    ]
+  },
+  "oppenheimer-2023": {
+    "title": "Oppenheimer",
+    "poster": "/oppenheimer-2023.jpg",
+    "year": 2023,
+    "viewings": [
+      {
+        "date": "2023-08-01",
+        "location": "Landmark Greenwood Village"
+      }
+    ]
+  },
+  "spider-man-no-way-home-2021": {
+    "title": "Spider-Man: No Way Home",
+    "poster": "/spider-man-no-way-home-2021.jpg",
+    "year": 2021,
+    "viewings": [
+      {
+        "date": "2021-12-23",
+        "location": "Landmark Greenwood Village"
+      }
+    ]
+  },
+  "tampopo-1985": {
+    "title": "Tampopo",
+    "poster": "/tampopo-1985.png",
+    "year": 1985,
+    "viewings": [
+      {
+        "date": "2022-07-21",
+        "location": "SIFF Film Center"
+      },
+      {
+        "date": "2022-11-07",
+        "location": "Rockefeller Hall"
       }
     ]
   }
