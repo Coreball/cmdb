@@ -1,0 +1,25 @@
+{
+  "barbie-2023": {
+    "title": "Barbie",
+    "poster": "/barbie-2023.jpg",
+    "year": 2023,
+    "viewings": [
+      {
+        "date": "2023-08-08"
+      }
+    ]
+  },
+  "cloud-atlas-2012": {
+    "title": "Cloud Atlas",
+    "poster": "/cloud-atlas-2012.jpg",
+    "year": 2012,
+    "viewings": [
+      {
+        "date": "2020-01-20"
+      },
+      {
+        "date": "2020-05-30"
+      }
+    ]
+  }
+}
