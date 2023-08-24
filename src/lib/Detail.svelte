@@ -13,6 +13,7 @@
       <li>{viewing.date}, {viewing.location}</li>
     {/each}
   </ul>
+  <a href="/">Back</a>
 </main>
 
 <style>
@@ -27,5 +28,10 @@
     max-width: 400px;
     width: 75%;
     margin: 1rem auto;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 2rem;
   }
 </style>
