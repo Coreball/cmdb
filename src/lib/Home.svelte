@@ -2,6 +2,7 @@
   import type { Movies } from '../types'
 
   export let movies: Movies
+  export let grid = false
 
   $: recents = Object.entries(movies)
     .flatMap(([id, movie]) =>
@@ -9,8 +10,6 @@
     )
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 4)
-
-  let grid = false
 </script>
 
 <main>

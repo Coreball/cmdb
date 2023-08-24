@@ -7,11 +7,13 @@
 
   const movies: Movies = data
   const basepath = '/'
+
+  let grid = false
 </script>
 
 <div use:links>
   <Router {basepath}>
     <Route path="/:id" let:params><Detail movie={movies[params.id]} /></Route>
-    <Route path="/"><Home {movies} /></Route>
+    <Route path="/"><Home {movies} bind:grid /></Route>
   </Router>
 </div>
