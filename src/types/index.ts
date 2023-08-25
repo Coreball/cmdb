@@ -8,6 +8,8 @@ export type Movie = {
   poster: string
   year: number
   viewings: Viewing[]
+  rating: number
+  comment?: string
 }
 
 export type Movies = {

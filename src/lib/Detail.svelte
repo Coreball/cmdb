@@ -13,6 +13,10 @@
       <li>{viewing.date}, {viewing.location}</li>
     {/each}
   </ul>
+  <h2>Rating: {movie.rating}</h2>
+  {#if movie.comment}
+    <p>{movie.comment}</p>
+  {/if}
   <a href="/">Back</a>
 </main>
 
@@ -27,7 +31,11 @@
     display: block;
     max-width: 400px;
     width: 75%;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
   }
 
   a {

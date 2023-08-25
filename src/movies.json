@@ -8,7 +8,9 @@
         "date": "2023-03-16",
         "location": "Cornell Cinema"
       }
-    ]
+    ],
+    "rating": 19,
+    "comment": "This film is a touching look into the life of an Asian-American family during the pandemic. We had a discussion with filmmaker David Siev in Cornell Cinema after the screening. It was wild going from seeing David in his videos to David in real life."
   },
   "barbie-2023": {
     "title": "Barbie",
@@ -19,7 +21,9 @@
         "date": "2023-08-08",
         "location": "Landmark Greenwood Village"
       }
-    ]
+    ],
+    "rating": 19,
+    "comment": "I am Kenough"
   },
   "cloud-atlas-2012": {
     "title": "Cloud Atlas",
@@ -34,7 +38,9 @@
         "date": "2020-05-30",
         "location": "Local"
       }
-    ]
+    ],
+    "rating": 16,
+    "comment": "\"Welcome to Papa Song's.\" The Cloud Atlas book and film are both worth a read/watch. I read the book first, and it captured things that the movie couldn't, such as the language differences in how each story is written. It's cool to see Cloud Atlas references in places I least expect it, such as code documentation..."
   },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
@@ -45,7 +51,9 @@
         "date": "2023-08-01",
         "location": "Landmark Greenwood Village"
       }
-    ]
+    ],
+    "rating": 15,
+    "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better."
   },
   "spider-man-no-way-home-2021": {
     "title": "Spider-Man: No Way Home",
@@ -56,7 +64,9 @@
         "date": "2021-12-23",
         "location": "Landmark Greenwood Village"
       }
-    ]
+    ],
+    "rating": 19,
+    "comment": "This was the first superhero film that I had watched in maybe over five years. Spider-Man made me appreciate them much more and seek them out in the future. Tom Holland, Zendaya, and Jacob Batalon were great together."
   },
   "tampopo-1985": {
     "title": "Tampopo",
@@ -71,6 +81,8 @@
         "date": "2022-11-07",
         "location": "Rockefeller Hall"
       }
-    ]
+    ],
+    "rating": 20,
+    "comment": "My first viewing of Tampopo was when a fellow intern rented out the SIFF Film Center to share his love of the film with everyone. The well-executed absurd comedy in Tampopo demonstrates how humor transcends both language and time."
   }
 }

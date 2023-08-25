@@ -65,6 +65,10 @@
     transition: max-width 0.1s;
   }
 
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
   ul {
     list-style-type: none;
     padding: 0;
@@ -124,5 +128,6 @@
 
   #grid p {
     margin: 0.5rem 0 0;
+    color: inherit;
   }
 </style>
