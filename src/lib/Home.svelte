@@ -12,7 +12,7 @@
     .slice(0, 4)
 </script>
 
-<main>
+<main class:wide={grid}>
   <h1>CMDB</h1>
   <section>
     <h2>Recently Watched</h2>
@@ -38,11 +38,22 @@
         >
       </div>
     </div>
-    <ul>
-      {#each Object.entries(movies) as [id, movie]}
-        <li><a href={id}>{movie.title} ({movie.year})</a></li>
-      {/each}
-    </ul>
+    {#if grid}
+      <div id="grid">
+        {#each Object.entries(movies) as [id, movie]}
+          <a href={id}>
+            <img src={movie.poster} alt="{movie.title} Poster" />
+            <p>{movie.title}</p>
+          </a>
+        {/each}
+      </div>
+    {:else}
+      <ul>
+        {#each Object.entries(movies) as [id, movie]}
+          <li><a href={id}>{movie.title} ({movie.year})</a></li>
+        {/each}
+      </ul>
+    {/if}
   </section>
 </main>
 
@@ -51,6 +62,7 @@
     padding: 1rem;
     max-width: 640px;
     margin: 0 auto;
+    transition: max-width 0.1s;
   }
 
   ul {
@@ -67,6 +79,10 @@
     justify-content: space-between;
   }
 
+  .wide {
+    max-width: 640px;
+  }
+
   #controls {
     display: flex;
     align-items: center;
@@ -75,7 +91,7 @@
   #controls button {
     box-sizing: border-box;
     width: 3rem;
-    height: 2rem;
+    height: 1.75rem;
   }
 
   #controls button:first-of-type {
@@ -91,5 +107,22 @@
   #controls .selected {
     background-color: var(--accent-color);
     color: var(--background-color);
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  #grid a,
+  #grid img {
+    display: block;
+    width: 100%;
+  }
+
+  #grid p {
+    margin: 0.5rem 0 0;
   }
 </style>
