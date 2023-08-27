@@ -10,7 +10,7 @@
       }
     ],
     "rating": 19,
-    "comment": "This film is a touching look into the life of an Asian-American family during the pandemic. We had a discussion with filmmaker David Siev in Cornell Cinema after the screening. It was wild going from seeing David in his videos to David in real life."
+    "comment": "This film is a touching look into the life of an Asian-American family during the pandemic. We had a discussion with filmmaker David Siev in Cornell Cinema after the screening. It was wild going from seeing David in his videos to David in real life. I think many people would benefit from watching their story."
   },
   "barbie-2023": {
     "title": "Barbie",
@@ -42,6 +42,19 @@
     "rating": 16,
     "comment": "\"Welcome to Papa Song's.\" The Cloud Atlas book and film are both worth a read/watch. I read the book first, and it captured things that the movie couldn't, such as the language differences in how each story is written. It's cool to see Cloud Atlas references in places I least expect it, such as code documentation..."
   },
+  "encanto-2021": {
+    "title": "Encanto",
+    "poster": "/encanto-2021.jpg",
+    "year": 2021,
+    "viewings": [
+      {
+        "date": "2022-02-26",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 20,
+    "comment": "Encanto was my first visit to Cornell Cinema and it introduced me to how amazing and special that place is. Encanto itself is an amazing animated movie with a great message. The soundtrack, of course, is also terrific. Definitely one of my favorites with how long it stayed in my head."
+  },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
     "poster": "/oppenheimer-2023.jpg",
@@ -53,7 +66,7 @@
       }
     ],
     "rating": 15,
-    "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better."
+    "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better. I also missed the first part of this film, which may have been a contributing factor."
   },
   "spider-man-no-way-home-2021": {
     "title": "Spider-Man: No Way Home",
@@ -66,7 +79,7 @@
       }
     ],
     "rating": 19,
-    "comment": "This was the first superhero film that I had watched in maybe over five years. Spider-Man made me appreciate them much more and seek them out in the future. Tom Holland, Zendaya, and Jacob Batalon were great together."
+    "comment": "This was the first superhero film that I had watched in maybe over five years. Spider-Man made me appreciate them much more and seek them out in the future. Tom Holland, Zendaya, and Jacob Batalon were great together. I didn't have much knowledge about the Spider-Man franchise going in, but was still able to enjoy the film a tremendous amount."
   },
   "tampopo-1985": {
     "title": "Tampopo",
@@ -83,6 +96,6 @@
       }
     ],
     "rating": 20,
-    "comment": "My first viewing of Tampopo was when a fellow intern rented out the SIFF Film Center to share his love of the film with everyone. The well-executed absurd comedy in Tampopo demonstrates how humor transcends both language and time."
+    "comment": "My first viewing of Tampopo was when a fellow intern rented out the SIFF Film Center to share his love of the film with everyone. Then I started to share the film with other people. The well-executed absurd comedy in Tampopo demonstrates how humor transcends both language and time."
   }
 }
