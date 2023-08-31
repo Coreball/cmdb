@@ -48,17 +48,21 @@
     </div>
     {#if grid}
       {#if showGroups}
-        {#each Object.entries(groups) as [key, group]}
-          <h3>{key}</h3>
-          <div class="grid">
-            {#each group as movie}
-              <a href={movie.id}>
-                <img src={movie.poster} alt="{movie.title} Poster" />
-                <p>{movie.title}</p>
-              </a>
-            {/each}
-          </div>
-        {/each}
+        <div class="groups-list">
+          {#each Object.entries(groups) as [key, group]}
+            <div class="group">
+              <h3>{key}</h3>
+              <div class="grid">
+                {#each group as movie}
+                  <a href={movie.id}>
+                    <img src={movie.poster} alt="{movie.title} Poster" />
+                    <p>{movie.title}</p>
+                  </a>
+                {/each}
+              </div>
+            </div>
+          {/each}
+        </div>
       {:else}
         <div class="grid">
           {#each Object.entries(movies) as [id, movie]}
@@ -92,7 +96,6 @@
   }
 
   h3 {
-    margin-top: 1.5rem;
     margin-bottom: 1rem;
   }
 
@@ -138,6 +141,12 @@
   #controls .selected {
     background-color: var(--accent-color);
     color: var(--background-color);
+  }
+
+  .groups-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .grid {
