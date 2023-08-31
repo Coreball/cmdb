@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Movies } from '../types'
+  import type { Movie, Movies } from '../types'
 
   export let movies: Movies
   export let grid = false
@@ -10,6 +10,14 @@
     )
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 4)
+
+  const showGroups = true
+
+  $: groups = Object.entries(movies).reduce((g, [id, m]) => {
+    const key = m.title.charAt(0)
+    const group = g[key] ?? []
+    return { ...g, [key]: [...group, { ...m, id }] }
+  }, {}) as { [key: string]: (Movie & { id: string })[] }
 </script>
 
 <main class:wide={grid}>
@@ -39,14 +47,28 @@
       </div>
     </div>
     {#if grid}
-      <div id="grid">
-        {#each Object.entries(movies) as [id, movie]}
-          <a href={id}>
-            <img src={movie.poster} alt="{movie.title} Poster" />
-            <p>{movie.title}</p>
-          </a>
+      {#if showGroups}
+        {#each Object.entries(groups) as [key, group]}
+          <h3>{key}</h3>
+          <div class="grid">
+            {#each group as movie}
+              <a href={movie.id}>
+                <img src={movie.poster} alt="{movie.title} Poster" />
+                <p>{movie.title}</p>
+              </a>
+            {/each}
+          </div>
         {/each}
-      </div>
+      {:else}
+        <div class="grid">
+          {#each Object.entries(movies) as [id, movie]}
+            <a href={id}>
+              <img src={movie.poster} alt="{movie.title} Poster" />
+              <p>{movie.title}</p>
+            </a>
+          {/each}
+        </div>
+      {/if}
     {:else}
       <ul>
         {#each Object.entries(movies) as [id, movie]}
@@ -67,6 +89,11 @@
 
   h1 {
     margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -113,20 +140,20 @@
     color: var(--background-color);
   }
 
-  #grid {
+  .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-template-rows: auto;
     gap: 1rem;
   }
 
-  #grid a,
-  #grid img {
+  .grid a,
+  .grid img {
     display: block;
     width: 100%;
   }
 
-  #grid p {
+  .grid p {
     margin: 0.5rem 0 0;
     color: inherit;
   }

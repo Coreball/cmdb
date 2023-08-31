@@ -49,6 +49,12 @@ h2 {
   color: var(--text-color);
 }
 
+h3 {
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
 ul {
   margin: 0;
 }
