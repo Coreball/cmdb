@@ -1,9 +1,9 @@
 <script lang="ts">
-  import type { Movie, Movies } from '../types'
+  import type { GroupOptions, Movie, Movies } from '../types'
 
   export let movies: Movies
   export let showGrid = true
-  export let showGroups: '' | 'a-z' | 'decade' | 'year' = ''
+  export let showGroups: GroupOptions = ''
 
   const groupKey = (movie: Movie, type: string) => {
     switch (type) {

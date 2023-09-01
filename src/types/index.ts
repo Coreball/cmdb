@@ -15,3 +15,5 @@ export type Movie = {
 export type Movies = {
   [key: string]: Movie
 }
+
+export type GroupOptions = '' | 'a-z' | 'decade' | 'year'
