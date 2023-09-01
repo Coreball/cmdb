@@ -3,7 +3,20 @@
 
   export let movies: Movies
   export let showGrid = true
-  export let showGroups = ''
+  export let showGroups: '' | 'a-z' | 'decade' | 'year' = ''
+
+  const groupKey = (movie: Movie, type: string) => {
+    switch (type) {
+      case 'a-z':
+        return movie.title.charAt(0)
+      case 'decade':
+        return Math.floor(movie.year / 10) * 10 + 's'
+      case 'year':
+        return movie.year
+      default:
+        return movie.title
+    }
+  }
 
   $: recents = Object.entries(movies)
     .flatMap(([id, movie]) =>
@@ -13,7 +26,7 @@
     .slice(0, 4)
 
   $: groups = Object.entries(movies).reduce((g, [id, m]) => {
-    const key = m.title.charAt(0)
+    const key = groupKey(m, showGroups)
     const group = g[key] ?? []
     return { ...g, [key]: [...group, { ...m, id }] }
   }, {}) as { [key: string]: (Movie & { id: string })[] }
@@ -37,11 +50,13 @@
     <div class="section-header">
       <h2>All Movies</h2>
       <div id="controls">
-        <select bind:value={showGroups}>
-          <option value="">--</option>
-          <option value="a-z">A-Z</option>
+        <select bind:value={showGroups} aria-label="Group By">
+          <option value="">No Groups</option>
+          <option value="a-z">Alphabetical</option>
+          <option value="decade">Decade</option>
+          <option value="year">Release Year</option>
         </select>
-        <div id="controls-display">
+        <div>
           <button class:selected={!showGrid} on:click={() => (showGrid = false)}
             >List</button
           >
