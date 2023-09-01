@@ -2,7 +2,8 @@
   import type { Movie, Movies } from '../types'
 
   export let movies: Movies
-  export let grid = false
+  export let showGrid = true
+  export let showGroups = ''
 
   $: recents = Object.entries(movies)
     .flatMap(([id, movie]) =>
@@ -11,8 +12,6 @@
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 4)
 
-  const showGroups = true
-
   $: groups = Object.entries(movies).reduce((g, [id, m]) => {
     const key = m.title.charAt(0)
     const group = g[key] ?? []
@@ -20,7 +19,7 @@
   }, {}) as { [key: string]: (Movie & { id: string })[] }
 </script>
 
-<main class:wide={grid}>
+<main class:wide={showGrid}>
   <h1>CMDB</h1>
   <section>
     <h2>Recently Watched</h2>
@@ -38,15 +37,21 @@
     <div class="section-header">
       <h2>All Movies</h2>
       <div id="controls">
-        <button class:selected={!grid} on:click={() => (grid = false)}
-          >List</button
-        >
-        <button class:selected={grid} on:click={() => (grid = true)}
-          >Grid</button
-        >
+        <select bind:value={showGroups}>
+          <option value="">--</option>
+          <option value="a-z">A-Z</option>
+        </select>
+        <div id="controls-display">
+          <button class:selected={!showGrid} on:click={() => (showGrid = false)}
+            >List</button
+          >
+          <button class:selected={showGrid} on:click={() => (showGrid = true)}
+            >Grid</button
+          >
+        </div>
       </div>
     </div>
-    {#if grid}
+    {#if showGrid}
       {#if showGroups}
         <div class="groups-list">
           {#each Object.entries(groups) as [key, group]}
@@ -64,7 +69,7 @@
           {/each}
         </div>
       {:else}
-        <div class="grid">
+        <div class="grid mt">
           {#each Object.entries(movies) as [id, movie]}
             <a href={id}>
               <img src={movie.poster} alt="{movie.title} Poster" />
@@ -120,25 +125,37 @@
   #controls {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
   }
 
-  #controls button {
+  #controls select {
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  #controls div {
+    display: flex;
+    align-items: center;
+  }
+
+  #controls div button {
     box-sizing: border-box;
     width: 3rem;
     height: 1.75rem;
   }
 
-  #controls button:first-of-type {
-    border-radius: 1rem 0 0 1rem;
-    padding-left: 0.5rem;
+  #controls div button:first-of-type {
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding-left: 0.25rem;
   }
 
-  #controls button:last-of-type {
-    border-radius: 0 1rem 1rem 0;
-    padding-right: 0.5rem;
+  #controls div button:last-of-type {
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding-right: 0.25rem;
   }
 
-  #controls .selected {
+  #controls div .selected {
     background-color: var(--accent-color);
     color: var(--background-color);
   }
@@ -165,5 +182,9 @@
   .grid p {
     margin: 0.5rem 0 0;
     color: inherit;
+  }
+
+  .mt {
+    margin-top: 0.25rem;
   }
 </style>

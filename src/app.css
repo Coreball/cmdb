@@ -66,7 +66,8 @@ p {
   color: var(--text-color);
 }
 
-button {
+button,
+select {
   font-size: 0.75rem;
   padding: 0.25rem;
   cursor: pointer;

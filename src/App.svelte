@@ -14,6 +14,6 @@
 <div use:links>
   <Router {basepath}>
     <Route path="/:id" let:params><Detail movie={movies[params.id]} /></Route>
-    <Route path="/"><Home {movies} bind:grid /></Route>
+    <Route path="/"><Home {movies} bind:showGrid={grid} /></Route>
   </Router>
 </div>
