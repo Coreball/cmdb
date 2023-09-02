@@ -12,7 +12,7 @@
       case 'decade':
         return Math.floor(movie.year / 10) * 10 + 's'
       case 'year':
-        return movie.year
+        return movie.year.toString()
       default:
         return movie.title
     }
@@ -68,9 +68,9 @@
     </div>
     {#if showGrid}
       {#if showGroups}
-        <div class="groups-list">
+        <div class="groups-grid">
           {#each Object.entries(groups) as [key, group]}
-            <div class="group">
+            <div class="group-grid">
               <h3>{key}</h3>
               <div class="grid">
                 {#each group as movie}
@@ -93,6 +93,19 @@
           {/each}
         </div>
       {/if}
+    {:else if showGroups}
+      <div class="groups-list">
+        {#each Object.entries(groups) as [key, group]}
+          <div class="group-list">
+            <h3>{key}</h3>
+            <ul>
+              {#each group as movie}
+                <li><a href={movie.id}>{movie.title} ({movie.year})</a></li>
+              {/each}
+            </ul>
+          </div>
+        {/each}
+      </div>
     {:else}
       <ul>
         {#each Object.entries(movies) as [id, movie]}
@@ -113,10 +126,6 @@
 
   h1 {
     margin-bottom: 1.5rem;
-  }
-
-  h3 {
-    margin-bottom: 1rem;
   }
 
   ul {
@@ -178,7 +187,21 @@
   .groups-list {
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .group-list h3 {
+    margin-bottom: 0.25rem;
+  }
+
+  .groups-grid {
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
+  }
+
+  .group-grid h3 {
+    margin-bottom: 1rem;
   }
 
   .grid {
