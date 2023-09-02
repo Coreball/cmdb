@@ -137,6 +137,10 @@
     margin-bottom: 1rem;
   }
 
+  img {
+    aspect-ratio: 2 / 3;
+  }
+
   .section-header {
     display: flex;
     justify-content: space-between;

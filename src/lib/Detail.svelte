@@ -28,6 +28,7 @@
   }
 
   img {
+    aspect-ratio: 2 / 3;
     display: block;
     max-width: 400px;
     width: 75%;
