@@ -9,7 +9,7 @@
         "location": "Cornell Cinema"
       }
     ],
-    "rating": 19,
+    "rating": 17,
     "comment": "This film is a touching look into the life of an Asian-American family during the pandemic. We had a discussion with filmmaker David Siev in Cornell Cinema after the screening. It was wild going from seeing David in his videos to David in real life. I think many people would benefit from watching their story."
   },
   "barbie-2023": {
@@ -22,8 +22,21 @@
         "location": "Landmark Greenwood Village"
       }
     ],
-    "rating": 19,
+    "rating": 17,
     "comment": "I am Kenough"
+  },
+  "black-panther-wakanda-forever-2022": {
+    "title": "Black Panther: Wakanda Forever",
+    "poster": "/black-panther-wakanda-forever-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-05-03",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 12,
+    "comment": "Third superhero film watched in recent memory. Black Panther was new to me so I didn't understand some of the film's premise at the start. It was okay, but I liked the previous two more."
   },
   "cloud-atlas-2012": {
     "title": "Cloud Atlas",
@@ -41,6 +54,19 @@
     ],
     "rating": 16,
     "comment": "\"Welcome to Papa Song's.\" The Cloud Atlas book and film are both worth a read/watch. I read the book first, and it captured things that the movie couldn't, such as the language differences in how each story is written. It's cool to see Cloud Atlas references in places I least expect it, such as code documentation..."
+  },
+  "doctor-strange-multiverse-madness-2022": {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "poster": "/doctor-strange-multiverse-madness-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2022-08-26",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 14,
+    "comment": "Second superhero film watched in recent memory. Last saw Doctor Strange in Spider-Man in 2021. I was less invested in this one and didn't think it was quite as good, but still not bad."
   },
   "drive-my-car-2021": {
     "title": "Drive My Car",
@@ -81,6 +107,19 @@
     "rating": 15,
     "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better. I also missed the first part of this film, which may have been a contributing factor."
   },
+  "shang-chi-legend-ten-rings-2021": {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "poster": "/shang-chi-legend-ten-rings-2021.jpg",
+    "year": 2021,
+    "viewings": [
+      {
+        "date": "2023-07-12",
+        "location": "United Airlines"
+      }
+    ],
+    "rating": 18,
+    "comment": "Fourth superhero film watched in recent memory. I meant to watch it on another flight in the past but didn't for whatever reason. The family dynamics and characters felt deep and complex. Katy felt like someone I could have known in my life. The BMW product placement stuck out too much though. GM's in Barbie was much more natural."
+  },
   "spider-man-no-way-home-2021": {
     "title": "Spider-Man: No Way Home",
     "poster": "/spider-man-no-way-home-2021.jpg",
@@ -92,7 +131,7 @@
       }
     ],
     "rating": 19,
-    "comment": "This was the first superhero film that I had watched in maybe over five years. Spider-Man made me appreciate them much more and seek them out in the future. Tom Holland, Zendaya, and Jacob Batalon were great together. I didn't have much knowledge about the Spider-Man franchise going in, but was still able to enjoy the film a tremendous amount."
+    "comment": "This was the first superhero film that I had watched in maybe over five years. Spider-Man made me appreciate them much more and seek them out in the future. Tom Holland, Zendaya, and Jacob Batalon were great together. I didn't have much knowledge about the Spider-Man franchise going in, but was still able to enjoy the film a tremendous amount. The characters were very relatable."
   },
   "tampopo-1985": {
     "title": "Tampopo",
