@@ -1,4 +1,30 @@
 {
+  "after-yang-2021": {
+    "title": "After Yang",
+    "poster": "/after-yang-2021.jpg",
+    "year": 2021,
+    "viewings": [
+      {
+        "date": "2023-02-04",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 11,
+    "comment": "Nice visuals and aesthetic. To quote a Rotten Tomatoes review, \"a very long ASMR video.\" The slow pace is fine, but it also felt like not much really happened, and I wasn't able to get into it nearly as much as others such as Drive My Car. The scenes in the vehicle also felt very repetitive."
+  },
+  "aftersun-2022": {
+    "title": "Aftersun",
+    "poster": "/aftersun-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-02-17",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 14,
+    "comment": "Interesting film, but I felt like some of it didn't connect as well with me as it should have. The MiniDV camera footage was a nice element."
+  },
   "bad-axe-2022": {
     "title": "Bad Axe",
     "poster": "bad-axe-2022.jpg",
