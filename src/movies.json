@@ -81,6 +81,19 @@
     "rating": 16,
     "comment": "\"Welcome to Papa Song's.\" The Cloud Atlas book and film are both worth a read/watch. I read the book first, and it captured things that the movie couldn't, such as the language differences in how each story is written. It's cool to see Cloud Atlas references in places I least expect it, such as code documentation..."
   },
+  "decision-leave-2022": {
+    "title": "Decision to Leave",
+    "poster": "/decision-leave-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-02-11",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 18,
+    "comment": "Decision to Leave is a really good neo-noir romantic mystery with some superb camera work that I've never seen before. It's dark and suspenseful but still has humor in the right places. The story is clear and easy to understand at a surface level, providing for easy viewing, while also having a lot of subtle meaning behind everything."
+  },
   "doctor-strange-multiverse-madness-2022": {
     "title": "Doctor Strange in the Multiverse of Madness",
     "poster": "/doctor-strange-multiverse-madness-2022.jpg",
@@ -176,6 +189,19 @@
     "rating": 20,
     "comment": "My first viewing of Tampopo was when a fellow intern rented out the SIFF Film Center to share his love of the film with everyone. Then I started to share the film with other people. The well-executed absurd comedy in Tampopo demonstrates how humor transcends both language and time."
   },
+  "the-bridge-river-kwai-1957": {
+    "title": "The Bridge on the River Kwai",
+    "poster": "/the-bridge-river-kwai-1957.jpg",
+    "year": 1957,
+    "viewings": [
+      {
+        "date": "2023-03-11",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 16,
+    "comment": "The Bridge on the River Kwai is the oldest film I have seen in a while, and it felt that way. Fun to take at face value as an entertaining war movie, while also having more depth to it. Not completely historically accurate, but that's not unexpected."
+  },
   "the-conformist-1970": {
     "title": "The Conformist",
     "poster": "/the-conformist-1970.jpg",
@@ -188,5 +214,18 @@
     ],
     "rating": 17,
     "comment": "The Conformist (Il conformista) feels modern and classic at the same time. The architecture and visual style of the film create a fitting atmosphere for the time period. It's good."
+  },
+  "the-fabelmans-2022": {
+    "title": "The Fabelmans",
+    "poster": "/the-fabelmans-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-04-27",
+        "location": "Cornell Cinema"
+      }
+    ],
+    "rating": 15,
+    "comment": "Nice semi-autobiographical coming of age story by Steven Spielberg. Cool to see America as he remembered it in the 1950s."
   }
 }
