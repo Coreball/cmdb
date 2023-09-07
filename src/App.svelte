@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { Link, Route, Router, links } from 'svelte-routing'
+  import { Route, Router } from 'svelte-routing'
   import Home from './lib/Home.svelte'
   import data from './movies.json'
   import type { GroupOptions, Movies } from './types'
   import Detail from './lib/Detail.svelte'
 
   const movies: Movies = data
-  const basepath = '/'
+  const basepath = '/cmdb/'
 
   let showGrid = false
   let showGroups: GroupOptions = ''
 </script>
 
-<div use:links>
+<div>
   <Router {basepath}>
     <Route path="/:id" let:params><Detail movie={movies[params.id]} /></Route>
     <Route path="/"><Home {movies} bind:showGrid bind:showGroups /></Route>

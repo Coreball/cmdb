@@ -1,7 +1,7 @@
 {
   "after-yang-2021": {
     "title": "After Yang",
-    "poster": "/after-yang-2021.jpg",
+    "poster": "after-yang-2021.jpg",
     "year": 2021,
     "viewings": [
       {
@@ -14,7 +14,7 @@
   },
   "aftersun-2022": {
     "title": "Aftersun",
-    "poster": "/aftersun-2022.jpg",
+    "poster": "aftersun-2022.jpg",
     "year": 2022,
     "viewings": [
       {
@@ -40,7 +40,7 @@
   },
   "barbie-2023": {
     "title": "Barbie",
-    "poster": "/barbie-2023.jpg",
+    "poster": "barbie-2023.jpg",
     "year": 2023,
     "viewings": [
       {
@@ -53,7 +53,7 @@
   },
   "black-panther-wakanda-forever-2022": {
     "title": "Black Panther: Wakanda Forever",
-    "poster": "/black-panther-wakanda-forever-2022.jpg",
+    "poster": "black-panther-wakanda-forever-2022.jpg",
     "year": 2022,
     "viewings": [
       {
@@ -66,7 +66,7 @@
   },
   "cloud-atlas-2012": {
     "title": "Cloud Atlas",
-    "poster": "/cloud-atlas-2012.jpg",
+    "poster": "cloud-atlas-2012.jpg",
     "year": 2012,
     "viewings": [
       {
@@ -83,7 +83,7 @@
   },
   "decision-leave-2022": {
     "title": "Decision to Leave",
-    "poster": "/decision-leave-2022.jpg",
+    "poster": "decision-leave-2022.jpg",
     "year": 2022,
     "viewings": [
       {
@@ -96,7 +96,7 @@
   },
   "doctor-strange-multiverse-madness-2022": {
     "title": "Doctor Strange in the Multiverse of Madness",
-    "poster": "/doctor-strange-multiverse-madness-2022.jpg",
+    "poster": "doctor-strange-multiverse-madness-2022.jpg",
     "year": 2022,
     "viewings": [
       {
@@ -109,7 +109,7 @@
   },
   "drive-my-car-2021": {
     "title": "Drive My Car",
-    "poster": "/drive-my-car-2021.jpg",
+    "poster": "drive-my-car-2021.jpg",
     "year": 2021,
     "viewings": [
       {
@@ -122,7 +122,7 @@
   },
   "encanto-2021": {
     "title": "Encanto",
-    "poster": "/encanto-2021.jpg",
+    "poster": "encanto-2021.jpg",
     "year": 2021,
     "viewings": [
       {
@@ -135,7 +135,7 @@
   },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
-    "poster": "/oppenheimer-2023.jpg",
+    "poster": "oppenheimer-2023.jpg",
     "year": 2023,
     "viewings": [
       {
@@ -148,7 +148,7 @@
   },
   "shang-chi-legend-ten-rings-2021": {
     "title": "Shang-Chi and the Legend of the Ten Rings",
-    "poster": "/shang-chi-legend-ten-rings-2021.jpg",
+    "poster": "shang-chi-legend-ten-rings-2021.jpg",
     "year": 2021,
     "viewings": [
       {
@@ -161,7 +161,7 @@
   },
   "spider-man-no-way-home-2021": {
     "title": "Spider-Man: No Way Home",
-    "poster": "/spider-man-no-way-home-2021.jpg",
+    "poster": "spider-man-no-way-home-2021.jpg",
     "year": 2021,
     "viewings": [
       {
@@ -174,7 +174,7 @@
   },
   "tampopo-1985": {
     "title": "Tampopo",
-    "poster": "/tampopo-1985.png",
+    "poster": "tampopo-1985.png",
     "year": 1985,
     "viewings": [
       {
@@ -191,7 +191,7 @@
   },
   "the-bridge-river-kwai-1957": {
     "title": "The Bridge on the River Kwai",
-    "poster": "/the-bridge-river-kwai-1957.jpg",
+    "poster": "the-bridge-river-kwai-1957.jpg",
     "year": 1957,
     "viewings": [
       {
@@ -204,7 +204,7 @@
   },
   "the-conformist-1970": {
     "title": "The Conformist",
-    "poster": "/the-conformist-1970.jpg",
+    "poster": "the-conformist-1970.jpg",
     "year": 1970,
     "viewings": [
       {
@@ -217,7 +217,7 @@
   },
   "the-fabelmans-2022": {
     "title": "The Fabelmans",
-    "poster": "/the-fabelmans-2022.jpg",
+    "poster": "the-fabelmans-2022.jpg",
     "year": 2022,
     "viewings": [
       {

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Link } from 'svelte-routing'
   import type { Movie } from '../types'
 
   export let movie: Movie
@@ -17,7 +18,7 @@
   {#if movie.comment}
     <p>{movie.comment}</p>
   {/if}
-  <a href="/">Back</a>
+  <Link to="/">Back</Link>
 </main>
 
 <style>
@@ -39,7 +40,7 @@
     margin-top: 1.5rem;
   }
 
-  a {
+  main :global(a) {
     display: inline-block;
     margin-top: 2rem;
   }

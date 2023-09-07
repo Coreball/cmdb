@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Link } from 'svelte-routing'
   import type { GroupOptions, Movie, Movies } from '../types'
 
   export let movies: Movies
@@ -39,8 +40,8 @@
     <ul>
       {#each recents as recent}
         <li>
-          <a href={recent.id}
-            >{movies[recent.id].title} ({movies[recent.id].year})</a
+          <Link to={recent.id}
+            >{movies[recent.id].title} ({movies[recent.id].year})</Link
           >
         </li>
       {/each}
@@ -74,10 +75,10 @@
               <h3>{key}</h3>
               <div class="grid">
                 {#each group as movie}
-                  <a href={movie.id}>
+                  <Link to={movie.id}>
                     <img src={movie.poster} alt="{movie.title} Poster" />
                     <p>{movie.title}</p>
-                  </a>
+                  </Link>
                 {/each}
               </div>
             </div>
@@ -86,10 +87,10 @@
       {:else}
         <div class="grid mt">
           {#each Object.entries(movies) as [id, movie]}
-            <a href={id}>
+            <Link to={id}>
               <img src={movie.poster} alt="{movie.title} Poster" />
               <p>{movie.title}</p>
-            </a>
+            </Link>
           {/each}
         </div>
       {/if}
@@ -100,7 +101,7 @@
             <h3>{key}</h3>
             <ul>
               {#each group as movie}
-                <li><a href={movie.id}>{movie.title} ({movie.year})</a></li>
+                <li><Link to={movie.id}>{movie.title} ({movie.year})</Link></li>
               {/each}
             </ul>
           </div>
@@ -109,7 +110,7 @@
     {:else}
       <ul>
         {#each Object.entries(movies) as [id, movie]}
-          <li><a href={id}>{movie.title} ({movie.year})</a></li>
+          <li><Link to={id}>{movie.title} ({movie.year})</Link></li>
         {/each}
       </ul>
     {/if}
@@ -215,7 +216,6 @@
     gap: 1rem;
   }
 
-  .grid a,
   .grid img {
     display: block;
     width: 100%;
