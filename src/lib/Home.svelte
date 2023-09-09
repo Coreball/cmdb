@@ -31,6 +31,12 @@
     const group = g[key] ?? []
     return { ...g, [key]: [...group, { ...m, id }] }
   }, {}) as { [key: string]: (Movie & { id: string })[] }
+
+  $: groupsSorted = Object.entries(groups).sort((a, b) =>
+    showGroups === 'decade' || showGroups === 'year'
+      ? b[0].localeCompare(a[0])
+      : a[0].localeCompare(b[0])
+  )
 </script>
 
 <main class:wide={showGrid}>
@@ -70,7 +76,7 @@
     {#if showGrid}
       {#if showGroups}
         <div class="groups-grid">
-          {#each Object.entries(groups) as [key, group]}
+          {#each groupsSorted as [key, group]}
             <div class="group-grid">
               <h3>{key}</h3>
               <div class="grid">
@@ -96,7 +102,7 @@
       {/if}
     {:else if showGroups}
       <div class="groups-list">
-        {#each Object.entries(groups) as [key, group]}
+        {#each groupsSorted as [key, group]}
           <div class="group-list">
             <h3>{key}</h3>
             <ul>
