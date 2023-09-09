@@ -1,4 +1,17 @@
 {
+  "1917": {
+    "title": "1917",
+    "poster": "1917-2019.jpg",
+    "year": 2019,
+    "viewings": [
+      {
+        "date": "2021-12-18",
+        "location": "American Airlines"
+      }
+    ],
+    "rating": 17,
+    "comment": "1917 is a good war movie, probably one of the best I've watched. The filming effect of making it look like a few super long continous takes really helps it stand out. Kind of heavy for watching on in-flight entertainment though, so I watched less serious films on planes in the future."
+  },
   "after-yang-2021": {
     "title": "After Yang",
     "poster": "after-yang-2021.jpg",
@@ -64,6 +77,19 @@
     "rating": 12,
     "comment": "Third superhero film watched in recent memory. Black Panther was new to me so I didn't understand some of the film's premise at the start. It was okay, but I liked the previous two more."
   },
+  "booksmart-2019": {
+    "title": "Booksmart",
+    "poster": "booksmart-2019.jpg",
+    "year": 2019,
+    "viewings": [
+      {
+        "date": "2022-05-28",
+        "location": "United Airlines"
+      }
+    ],
+    "rating": 16,
+    "comment": "Booksmart is a hilarious comedy set at the end of high school, with two girls that want to prove that they are cool and didn't just focus on school. I liked how it broke classic stereotypes and portrayed the social students as also being high achievers. People in real life don't exclusively fit into categories such as 'nerd' or 'jock'. This movie also has special personal significance because the characters were the same graduating year as me."
+  },
   "cloud-atlas-2012": {
     "title": "Cloud Atlas",
     "poster": "cloud-atlas-2012.jpg",
@@ -119,6 +145,19 @@
     ],
     "rating": 19,
     "comment": "Drive My Car was the first film that I watched independently at Cornell Cinema. The film is approximately three hours long and sometimes it feels like there's not much going on. But that's part of the beauty of it, you just need to get on the same wavelength and appreciate the meaningful silence."
+  },
+  "easy-a-2010": {
+    "title": "Easy A",
+    "poster": "easy-a-2010.jpg",
+    "year": 2010,
+    "viewings": [
+      {
+        "date": "2021-01-23",
+        "location": "American Airlines"
+      }
+    ],
+    "rating": 15,
+    "comment": "Fun, lighthearted high school comedy. Surprised me how much I enjoyed it. Easy A does feel quite a bit older than Booksmart, but it is from a previous era. Credits music is good. The movie can feel cheesy but in a good way."
   },
   "encanto-2021": {
     "title": "Encanto",
