@@ -116,6 +116,19 @@
     "rating": 14,
     "comment": "Watching Borat 2 when it was released during the COVID-19 pandemic and before the 2020 US elections felt appropriate. I believe that if I were to watch for the first time it in the future instead, it wouldn't have been as good. 2020 was a year that I experienced and understood culturally."
   },
+  "boyz-hood-1991": {
+    "title": "Boyz n the Hood",
+    "poster": "boyz-hood-1991.jpg",
+    "year": 1991,
+    "viewings": [
+      {
+        "date": "2022-01-24",
+        "location": "Home"
+      }
+    ],
+    "rating": 18,
+    "comment": "Boyz n the Hood is a very important film to watch, as it draws from the director's life growing up in the hood and presents it with depth and compassion to those who may be unfamiliar with that reality. Certain scenes stood out to me, like when Furious explained gentrification of the neighborhood."
+  },
   "cloud-atlas-2012": {
     "title": "Cloud Atlas",
     "poster": "cloud-atlas-2012.jpg",
@@ -197,6 +210,19 @@
     ],
     "rating": 20,
     "comment": "Encanto was my first visit to Cornell Cinema and it introduced me to how amazing and special that place is. Encanto itself is an amazing animated movie with a great message. The soundtrack, of course, is also terrific. Definitely one of my favorites with how long it stayed in my head."
+  },
+  "heat-1995": {
+    "title": "Heat",
+    "poster": "heat-1995.jpg",
+    "year": 1995,
+    "viewings": [
+      {
+        "date": "2023-07-09",
+        "location": "Home"
+      }
+    ],
+    "rating": 16,
+    "comment": "Heat was a highly influential crime film, and perhaps I overhyped it a little too much before watching. It was cool to see the original robbery of the armored transport and of the bank in the middle part of the film, as they were sources of inspiration for other media I have enjoyed."
   },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
