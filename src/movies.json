@@ -237,6 +237,19 @@
     "rating": 15,
     "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better. I also missed the first part of this film, which may have been a contributing factor."
   },
+  "planes-trains-automobiles-1987": {
+    "title": "Planes, Trains and Automobiles",
+    "poster": "planes-trains-automobiles-1987.jpg",
+    "year": 1987,
+    "viewings": [
+      {
+        "date": "2021-11-26",
+        "location": "Carl Becker House"
+      }
+    ],
+    "rating": 15,
+    "comment": "Planes, Trains and Automobiles is a classic American comedy from the 1980s and holds up well to this day. Many families have a tradition of watching it during the Thanksgiving holiday season."
+  },
   "shang-chi-legend-ten-rings-2021": {
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "poster": "shang-chi-legend-ten-rings-2021.jpg",
@@ -279,6 +292,19 @@
     ],
     "rating": 20,
     "comment": "My first viewing of Tampopo was when a fellow intern rented out the SIFF Film Center to share his love of the film with everyone. Then I started to share the film with other people. The well-executed absurd comedy in Tampopo demonstrates how humor transcends both language and time."
+  },
+  "tar-2022": {
+    "title": "Tár",
+    "poster": "tar-2022.jpg",
+    "year": 2022,
+    "viewings": [
+      {
+        "date": "2023-09-07",
+        "location": "Home"
+      }
+    ],
+    "rating": 16,
+    "comment": "I originally meant to watch Tár at Cornell Cinema in Spring 2023, but school got in the way. It is an engrossing drama about the musical world and some scenes stand out in particular, such as the masterclass at Juilliard and when she threatened a child. However, the introductory credits are really lengthy and made me bored before the main film even began. I also didn't really get the significance of the ending."
   },
   "the-bridge-river-kwai-1957": {
     "title": "The Bridge on the River Kwai",
