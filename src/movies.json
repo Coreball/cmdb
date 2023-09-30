@@ -357,5 +357,18 @@
     ],
     "rating": 15,
     "comment": "Nice semi-autobiographical coming of age story by Steven Spielberg. Cool to see America as he remembered it in the 1950s."
+  },
+  "the-imitation-game-2014": {
+    "title": "The Imitation Game",
+    "poster": "the-imitation-game-2014.jpg",
+    "year": 2014,
+    "viewings": [
+      {
+        "date": "2023-09-26",
+        "location": "Home"
+      }
+    ],
+    "rating": 17,
+    "comment": "The Imitation Game surpassed my expectations when I watched it. The movie does a great job telling the (dramatized) story of a founder of modern computer science, Alan Turing, and the construction of the Bombe decryption device. When I took CS 3110 at Cornell, the first major assignment was to develop a software replica of the Enigma. The film is not historically accurate, but the creative liberties provide a more engaging story for the typical viewer that can be told in less than two hours."
   }
 }
