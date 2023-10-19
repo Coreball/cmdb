@@ -250,6 +250,19 @@
     "rating": 15,
     "comment": "Planes, Trains and Automobiles is a classic American comedy from the 1980s and holds up well to this day. Many families have a tradition of watching it during the Thanksgiving holiday season."
   },
+  "saving-private-ryan-1998": {
+    "title": "Saving Private Ryan",
+    "poster": "saving-private-ryan-1998.jpg",
+    "year": 1998,
+    "viewings": [
+      {
+        "date": "2023-10-17",
+        "location": "Home"
+      }
+    ],
+    "rating": 19,
+    "comment": "Saving Private Ryan is an extremely powerful, gripping, and gruesome war film. The introductory battle scene leaves the viewer no breathing room from its intensity, and the moral footing of risking eight soldiers to save one is brought into question multiple times through the film. The former interpreter's lack of combat experience also shows and costs others their lives. Saving Private Ryan was selected for preservation in the US National Film Registry by the Library of Congress for its significance, and it's so understandable why."
+  },
   "shang-chi-legend-ten-rings-2021": {
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "poster": "shang-chi-legend-ten-rings-2021.jpg",
