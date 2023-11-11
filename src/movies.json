@@ -237,6 +237,19 @@
     "rating": 15,
     "comment": "Solid historical drama, but not particularly memorable for me. I found Barbie better. I also missed the first part of this film, which may have been a contributing factor."
   },
+  "past-lives-2023": {
+    "title": "Past Lives",
+    "poster": "past-lives-2023.jpg",
+    "year": 2023,
+    "viewings": [
+      {
+        "date": "2023-11-04",
+        "location": "Home"
+      }
+    ],
+    "rating": 17,
+    "comment": "Past Lives is a powerful and touching film with a lot of complex emotions portrayed through body language. It is semi-autobiographical and reminds us of how complicated real life can be compared to stories, especially with Arthur's character. Writing keys, phone, wallet next to the apartment door is relatable. The multiple eras in the film are presented well, though one of the scenes set in 2012 confused me because a featured vehicle didn't exist until several years later in reality."
+  },
   "planes-trains-automobiles-1987": {
     "title": "Planes, Trains and Automobiles",
     "poster": "planes-trains-automobiles-1987.jpg",
