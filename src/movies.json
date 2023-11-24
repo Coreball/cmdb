@@ -263,6 +263,19 @@
     "rating": 15,
     "comment": "Planes, Trains and Automobiles is a classic American comedy from the 1980s and holds up well to this day. Many families have a tradition of watching it during the Thanksgiving holiday season."
   },
+  "radical-2023": {
+    "title": "Radical",
+    "poster": "radical-2023.jpg",
+    "year": 2023,
+    "viewings": [
+      {
+        "date": "2023-11-19",
+        "location": "AMC Highlands Ranch 24"
+      }
+    ],
+    "rating": 17,
+    "comment": "Based on a true story, Radical follows the lives of three students and how a new teacher transformed their school, one of the worst performing in Mexico. The stark contrast between life in Matamoros and just across the border in Texas emphasizes how inequality and lack of resources perpetuates cycles of violence and poverty, trapping children in the situations in which they were born. After the teacher's arrival, some students were able to reach their true potential and pursue their dreams of becoming aerospace engineers, but others were never able to escape."
+  },
   "saving-private-ryan-1998": {
     "title": "Saving Private Ryan",
     "poster": "saving-private-ryan-1998.jpg",
