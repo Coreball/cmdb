@@ -146,6 +146,19 @@
     "rating": 16,
     "comment": "\"Welcome to Papa Song's.\" The Cloud Atlas book and film are both worth a read/watch. I read the book first, and it captured things that the movie couldn't, such as the language differences in how each story is written. It's cool to see Cloud Atlas references in places I least expect it, such as code documentation..."
   },
+  "coda-2021": {
+    "title": "CODA",
+    "poster": "coda-2021.jpg",
+    "year": 2021,
+    "viewings": [
+      {
+        "date": "2023-12-03",
+        "location": "Home"
+      }
+    ],
+    "rating": 16,
+    "comment": "CODA is an interesting blend of serious topics and lighthearted comedy. If watched at a surface level, people might not think too much about the nuances of being in a deaf family. Dive a little deeper, and there's a big conversation in the world of accessibility to be had. For deaf people, aspects of their lives are expressed in familiar ways. Hearing children have to translate things possibily inappropriate for them to their parents, and community meetings without translators are difficult to understand. In any case, CODA helps people learn about the deaf community and works to normalize people with disabilities in media."
+  },
   "decision-leave-2022": {
     "title": "Decision to Leave",
     "poster": "decision-leave-2022.jpg",
