@@ -435,5 +435,31 @@
     ],
     "rating": 17,
     "comment": "The Imitation Game surpassed my expectations when I watched it. The movie does a great job telling the (dramatized) story of a founder of modern computer science, Alan Turing, and the construction of the Bombe decryption device. When I took CS 3110 at Cornell, the first major assignment was to develop a software replica of the Enigma. The film is not historically accurate, but the creative liberties provide a more engaging story for the typical viewer that can be told in less than two hours."
+  },
+  "winters-bone-2010": {
+    "title": "Winter's Bone",
+    "poster": "winters-bone-2010.jpg",
+    "year": 2010,
+    "viewings": [
+      {
+        "date": "2024-01-17",
+        "location": "Delta Air Lines"
+      }
+    ],
+    "rating": 13,
+    "comment": "Delta needs to add English subtitles to their in-flight entertainment. Winter's Bone is a fine movie, but I would not consider it a must-watch. It has Jennifer Lawrence before The Hunger Games. Interesting to see a rural area of Missouri with poverty, distant family, and news spreading through small communities. The later part quickly went from normal to WTF."
+  },
+  "wonka-2023": {
+    "title": "Wonka",
+    "poster": "wonka-2023.jpg",
+    "year": 2023,
+    "viewings": [
+      {
+        "date": "2024-01-04",
+        "location": "Regal SouthGlenn"
+      }
+    ],
+    "rating": 15,
+    "comment": "Wonka is a fun musical fantasy film. Though there were lots of twists and turns, there's never really any doubt that everything will work out fine in the end. The beginning was a little strange and it felt like it took some time to get going. There are deeper themes available, but they didn't strike me as being super complex. I appreciated that the ending wrapped up many subplots and set the stage for the other movies."
   }
 }
