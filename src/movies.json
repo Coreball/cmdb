@@ -1,5 +1,5 @@
 {
-  "1917": {
+  "1917-2019": {
     "title": "1917",
     "poster": "1917-2019.jpg",
     "year": 2019,
@@ -37,6 +37,19 @@
     ],
     "rating": 14,
     "comment": "Interesting film, but I felt like some of it didn't connect as well with me as it should have. The MiniDV camera footage was a nice element."
+  },
+  "baby-driver-2017": {
+    "title": "Baby Driver",
+    "poster": "baby-driver-2017.jpg",
+    "year": 2017,
+    "viewings": [
+      {
+        "date": "2025-01-05",
+        "location": "Delta Air Lines"
+      }
+    ],
+    "rating": 16,
+    "comment": "Baby Driver was a film I had been interested in for a while, but hadn't gotten around to seeing. The story is well made and very intense, maybe a little too much for sleepy airplane me. The immersive movie had me wondering what was going to happen next in a way other films haven't recently. The way music was incorporated in scenes was cool and the characters were fleshed out nicely. The genre of music was different than in my mind but that's probably because I watched the Deja Vu edit too many times before seeing the original. Wish the movie had more about cars."
   },
   "bad-axe-2022": {
     "title": "Bad Axe",
@@ -237,6 +250,19 @@
     "rating": 16,
     "comment": "Heat was a highly influential crime film, and perhaps I overhyped it a little too much before watching. It was cool to see the original robbery of the armored transport and of the bank in the middle part of the film, as they were sources of inspiration for other media I have enjoyed."
   },
+  "moana-2-2024": {
+    "title": "Moana 2",
+    "poster": "moana-2-2024.jpg",
+    "year": 2024,
+    "viewings": [
+      {
+        "date": "2025-01-02",
+        "location": "AMC Highlands Ranch 24"
+      }
+    ],
+    "rating": 16,
+    "comment": "Having enjoyed Moana 1 a lot, I was excited to finally see Moana 2. The film was good and I think the action was improved, but the original movie is still more iconic. It had a better story and soundtrack and felt less forced than the second one. Happy endings where everything's wrapped up satisfactorily are always pleasing."
+  },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
     "poster": "oppenheimer-2023.jpg",
@@ -435,6 +461,19 @@
     ],
     "rating": 17,
     "comment": "The Imitation Game surpassed my expectations when I watched it. The movie does a great job telling the (dramatized) story of a founder of modern computer science, Alan Turing, and the construction of the Bombe decryption device. When I took CS 3110 at Cornell, the first major assignment was to develop a software replica of the Enigma. The film is not historically accurate, but the creative liberties provide a more engaging story for the typical viewer that can be told in less than two hours."
+  },
+  "the-ministry-of-ungentlemanly-warfare-2024": {
+    "title": "The Ministry of Ungentlemanly Warfare",
+    "poster": "the-ministry-of-ungentlemanly-warfare-2024.jpg",
+    "year": 2024,
+    "viewings": [
+      {
+        "date": "2024-12-19",
+        "location": "United Airlines"
+      }
+    ],
+    "rating": 11,
+    "comment": "Hadn't heard of this movie before when I watched it on the plane. The premise was interesting, but I didn't enjoy watching it. The story was fictionalized in a way that didn't connect with me. I found myself bored with the battle scenes that were supposed to be a highlight and wishing they would be over soon. The plot progressed quickly without much time given to character development."
   },
   "winters-bone-2010": {
     "title": "Winter's Bone",
