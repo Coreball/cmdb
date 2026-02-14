@@ -276,6 +276,19 @@
     "rating": 16,
     "comment": "Having enjoyed Moana 1 a lot, I was excited to finally see Moana 2. The film was good and I think the action was improved, but the original movie is still more iconic. It had a better story and soundtrack and felt less forced than the second one. Happy endings where everything's wrapped up satisfactorily are always pleasing."
   },
+  "office-space-1999": {
+    "title": "Office Space",
+    "poster": "office-space-1999.jpg",
+    "year": 1999,
+    "viewings": [
+      {
+        "date": "2026-02-13",
+        "location": "Work"
+      }
+    ],
+    "rating": 15,
+    "comment": "Fitting movie to watch at work, and still relatable nearly 27 years later even though the environment and objects found in tech company offices are much different now. Repetition of the same phrases over and over again is used very well. Office Space is important to see because it's a cult classic and there are cultural references to this movie everywhere, even in video games such as Team Fortress 2."
+  },
   "oppenheimer-2023": {
     "title": "Oppenheimer",
     "poster": "oppenheimer-2023.jpg",
